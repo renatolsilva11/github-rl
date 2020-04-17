@@ -10,7 +10,7 @@ int main(void){
     
     if(num == 1) {
       // ppm para mg/m³
-      printf("DIGITE O VALOR EM ppm\n");
+      printf("DIGITE O VALOR EM ppm, A TEMPERATURA, PRESSÃO E MASSA MOLAR\n");
       scanf("%lf %lf %lf %lf", &value, &temp, &pressao, &massamolar);
       result = ((value) * ((1) / 6.02e23 )) / ((1.66E-18) * (0.082) * ((273 + temp))
     / (pressao)) * (massamolar) * (1000) * (1000);
